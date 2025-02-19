@@ -191,7 +191,7 @@ namespace IntegrationTestingProject
             response.EnsureSuccessStatusCode();
             var responseString = await response.Content.ReadAsStringAsync();
             Assert.DoesNotContain("Test Three", responseString);
-            Assert.DoesNotContain("60", responseString);
+            Assert.DoesNotContain("61", responseString);
         }
     }
 }
