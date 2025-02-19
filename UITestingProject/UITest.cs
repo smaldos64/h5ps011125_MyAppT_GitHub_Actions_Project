@@ -37,6 +37,7 @@ namespace UITestingProject
             driver.FindElement(By.Id("Age")).Clear();
             driver.FindElement(By.Id("Age")).SendKeys("40");
             driver.FindElement(By.Id("Age")).Clear();
+            driver.FindElement(By.Id("Age")).Clear();
             driver.FindElement(By.Id("Age")).SendKeys("30");
 
             driver.FindElement(By.ClassName("btn-primary")).Click();
